@@ -7,8 +7,8 @@
     margin: 10px;
     border: 0;
     outline: none;
-    -webkit-user-select: none;
-    -webkit-tap-highlight-color: rgba(200,200,200,0);
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(200, 200, 200, 0);
     background-color: #0097a7;
     color: white;
     transition: all 0.4s ease;
@@ -19,7 +19,8 @@
     box-shadow: none;
     transition: all 0.2s ease;
 }
-.positive-btn:hover{
+
+.positive-btn:hover {
     opacity: 0.8;
 }
 
@@ -47,7 +48,8 @@
     background-color: #ec407a;
     box-shadow: 0px 5px 0px #f48fb1;
 }
-.positive-btn-yellow{
+
+.positive-btn-yellow {
     background-color: #f57f17;
     box-shadow: 0px 5px 0px #ffca28;
 }
@@ -60,6 +62,6 @@
 .positive-btn-white {
     color: #212121;
     background-color: white;
-    border: 1px solid #221122; 
+    border: 1px solid #221122;
     box-shadow: 0px 5px 0px #bdbdbd;
 }
